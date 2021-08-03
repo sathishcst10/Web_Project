@@ -6,7 +6,7 @@ body {
 body {
 
     background-color: #FFFFFF;
-    padding-top: 64px;
+    padding-top: 52px;
 }
 body.body-login{
     display: flex;
@@ -85,4 +85,55 @@ table.tbl-list tbody tr:hover .onHover{
 }
 a.menu-icon {
     color: #4b616b;
+}
+
+.hero-bg{
+  background-image: url(../images/hero-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  height: 50vh;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.home-nav-header{
+  padding: 25px 0 0;
+  background: #ecf0f1;
+  margin-top: -50px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.home-tab-menu{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 500;
+  padding: 0.5rem 1.75rem;
+  color: #576574;
+}
+.home-tab-menu img {
+  width: 72px;
+  margin-bottom: 10px;
+}
+.nav-tabs .nav-link.home-tab-menu.active{
+  color: #222f3e;
+  background-color: #d4d4d4;
+  border-color: #dee2e6 #dee2e6 #fff;
+}
+.nav-tabs {
+  border-bottom: 5px solid #dee2e6;
+}
+.tab-list-body{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
 }
